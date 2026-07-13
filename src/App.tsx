@@ -1,19 +1,22 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ThamiltonComponent from "./ThamiltonComponent";
+/*
 import Welcome from "./Welcome";
 import PizzaToppings from "./PizzaToppings";
 import TsteeleComponent from "./TsteeleComponent";
-import ThamiltonComponent from "./ThamiltonComponent";
 import DweiseComponent from "./DweiseAccordionComponent";
 import CBaresComponent from "./CBaresComponent";
 import ZsmuckerbryanComponent from "./ZsmuckerbryanComponent";
 import MrooneyButton from "./mrooneyButton";
+*/
 
 const App = () => {
   return (
     <div className="m-3">
       <h1>React Components</h1>
       <ThamiltonComponent />
+      {/*
       <PizzaToppings />
       <TsteeleComponent />
       <Welcome />
@@ -21,6 +24,7 @@ const App = () => {
       <CBaresComponent />
       <ZsmuckerbryanComponent />
       <MrooneyButton />
+      */}
     </div>
   );
 };
